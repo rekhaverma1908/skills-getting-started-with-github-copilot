@@ -1,9 +1,8 @@
 {
-  "mcpServers": {
-    "example": {
-      "command": "node",
-      "args": ["path/to/server.js"],
-      "env": {}
+  "servers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/"
     }
   }
 }
